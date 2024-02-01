@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(1, 1, 42);
+    color: white;
+    text-align: center;
+    height: 70px;
+}
+
+.gameName{
+    position: relative;
+    padding-top: 1%;
+}
+
+.game{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.rock{
+    width: 200px;
+    height: 200px;
+    background-image: url("rock.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.rock:hover{
+    cursor: pointer;
+    border: 3px solid rgb(1, 1, 42);
+}
+
+.paper{
+    width: 200px;
+    height: 200px;
+    background-image: url("paper.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.paper:hover{
+    cursor: pointer;
+    border: 3px solid rgb(1, 1, 42);
+}
+
+
+.scissor{
+    width: 200px;
+    height: 200px;
+    background-image: url("scissors.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.scissor:hover{
+    cursor: pointer;
+    border: 3px solid rgb(1, 1, 42);
+}
+
+
+
+.scores{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.playerScore{
+    margin-top: 5%;
+    /* position: absolute; */
+    display: inline-block;
+    /* left: 50%;  */
+    font-size: 35px;
+    color: red;
+}
+
+.compScore{
+    margin-top: 5%;
+    /* position: absolute; */
+    display: inline-block;
+    /* left: 51%; */
+    font-size: 35px;
+    color: red;
+}
+
+#you{
+    position: absolute;
+    right: 65%;
+    margin-top: 1%; 
+    font-size: 40px;
+    color: black;
+    top: 60%;
+}
+
+#comp{
+    position: absolute;
+    right: 27%;
+    margin-top: 1%;
+    font-size: 40px;
+    color: black;
+    top: 60%;
+}
+
+.final{
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 40px;
+    background-color: rgb(1, 1, 42);
+    color: white;
+    border-radius: 26%;
+
+    
+}
+
+
+
+
